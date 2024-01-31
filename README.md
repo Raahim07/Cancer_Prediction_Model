@@ -1,7 +1,8 @@
 # Cancer Prediction Model with Flask Deployment
 Predicting cancer is crucial for timely diagnosis and treatment. This project leverages Logistic Regression to predict cancer based on provided data. Additionally, it facilitates model deployment using Flask.
 
-This repository contains code and resources for a cancer prediction model. Here's what's included:
+
+This repository contains code and resources for a cancer prediction model.
 
 - **Logistic Regression Model**: Implementation of a predictive model using logistic regression.
 - **Flask Deployment**: Scripts and configurations for deploying the model using Flask.
@@ -9,9 +10,6 @@ This repository contains code and resources for a cancer prediction model. Here'
 
 
 ## Dependencies
-
-Make sure you have the following dependencies installed:
-
 - Python 3.11.1
 - Flask
 - scikit-learn
@@ -21,7 +19,7 @@ Make sure you have the following dependencies installed:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Raahim/YourRepository.git
+   git clone https://github.com/Raahim07/Cancer_Prediction_Model.git
    ```
 
 
