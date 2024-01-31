@@ -1,10 +1,4 @@
 # Cancer Prediction Model with Flask Deployment
-
-![GitHub repo size](https://img.shields.io/github/repo-size/YourUsername/YourRepository)
-![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository?style=social)
-![GitHub](https://img.shields.io/github/license/YourUsername/YourRepository)
-
 Predicting cancer is crucial for timely diagnosis and treatment. This project leverages Logistic Regression to predict cancer based on provided data. Additionally, it facilitates model deployment using Flask.
 
 
@@ -21,7 +15,7 @@ This repository contains code and resources for a cancer prediction model. Here'
 
 Make sure you have the following dependencies installed:
 
-- Python 3.x
+- Python 3.11.1
 - Flask
 - scikit-learn
 - pandas
