@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Diagnosis Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-align: left;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .buttonStyle {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Breast Cancer Diagnosis Prediction</h1>
+    <form id="predictionForm" method="post" action="/predict">
+        <label for="mean_radius">Mean Radius:</label>
+        <input type="text" id="mean_radius" name="mean_radius" placeholder="Enter mean radius...">
+
+        <label for="mean_texture">Mean Texture:</label>
+        <input type="text" id="mean_texture" name="mean_texture" placeholder="Enter mean texture...">
+
+        <label for="mean_perimeter">Mean Perimeter:</label>
+        <input type="text" id="mean_perimeter" name="mean_perimeter" placeholder="Enter mean perimeter...">
+
+        <label for="mean_area">Mean Area:</label>
+        <input type="text" id="mean_area" name="mean_area" placeholder="Enter mean area...">
+
+        <label for="mean_smoothness">Mean Smoothness:</label>
+        <input type="text" id="mean_smoothness" name="mean_smoothness" placeholder="Enter mean smoothness...">
+
+<!--        <button type="button" onclick="submitForm()">Predict</button>-->
+        <input class="buttonStyle" type="submit" value="Predict">
+    </form>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
